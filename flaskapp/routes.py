@@ -40,9 +40,16 @@ def apply():
 
 @app.route("/virgins")
 def virgins():
+    '''
     choices = ['https://www.linkedin.com/in/changhao-leo-wang-50b5b819a/', 'https://www.linkedin.com/in/anthony-petruzziello-8b3196167/',
                'https://www.linkedin.com/in/andrew-caminiti-339a2518b/', 'https://www.linkedin.com/in/perry-guloien-b4746b14b/',
                'https://www.linkedin.com/in/anika-prakash-000410168/', 'https://www.linkedin.com/in/aryaman-k-019379135/']
+    '''
+
+    choices = ['https://www.linkedin.com/in/rohan-sindhwani-35b064139/', 'https://www.linkedin.com/in/jackbuckley16/',
+               'https://www.linkedin.com/in/elli-sweet-22a7b3168/', 'https://www.linkedin.com/in/aidan-burke-941889aa/',
+               'https://www.linkedin.com/in/alejandro-castro-macias-930329147/', 'https://www.linkedin.com/in/kevinjiwookim/',
+               'https://www.linkedin.com/in/samuelreiter/']
 
     url = random.choice(choices)
 
