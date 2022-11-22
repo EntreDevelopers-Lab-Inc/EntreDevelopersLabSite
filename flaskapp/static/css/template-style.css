@@ -874,6 +874,18 @@ aside.aside-left {
   display: block;
 }
 
+.margin-top-bottom-160 {
+  margin-top: 160px !important;
+  margin-bottom: 160px !important;
+  display: block;
+}
+
+.margin-top-bottom-280 {
+  margin-top: 280px !important;
+  margin-bottom: 280px !important;
+  display: block;
+}
+
 .margin-left-0 {
   margin-left: 0 !important;
 }
